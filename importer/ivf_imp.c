@@ -25,8 +25,6 @@
 
 #include <string.h>
 
-#include <obuparse.h>
-
 #define LSMASH_IMPORTER_INTERNAL
 #include "importer.h"
 
@@ -34,6 +32,7 @@
     Indeo Video Format (IVF) importer
 **********************************************************************************/
 #include "common/utils.h"
+#include "codecs/obuparse.h"
 #include "codecs/av1.h"
 #include "codecs/av1_obu.h"
 
